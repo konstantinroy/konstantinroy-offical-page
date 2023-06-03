@@ -74,6 +74,16 @@ hr {
   margin-bottom: 30px;
   border: 0;
 }
+.dividing-line {
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 0;
+}
 /* Navigation */
 #menu {
   padding: 20px;
@@ -291,7 +301,7 @@ header .intro-text {
   display: flex;
   justify-content: space-between;
   color: #1c1c1c;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .experience-card_photo {
   width: 1000px;
@@ -458,21 +468,33 @@ a:focus,
   .experience-card_photo {
     width: 1600px;
   }
+  .dividing-line {
+    width: 95%;
+  }
 }
 @media (max-width: 540px) {
   .experience-card_photo {
     width: 2400px;
   }
+  .dividing-line {
+    width: 90%;
+}
 }
 @media (max-width: 480px) {
+  .intro h1 {
+    font-size: 50px;
+  }
+  .intro p {
+    font-size: 28px;
+  }
   #about .about-text {
-    font-size: 22px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .btn-default {
-    font-size: 20px;
+    font-size: 18px;
   }
   .section-title.center {
     padding: 0;
@@ -487,6 +509,45 @@ a:focus,
   }
   .experience-card_text {
     margin: 0;
+    font-size: 20px;
+  }
+  .dividing-line {
+    width: 85%;
+  }
+  #contact .form-control {
+    font-size: 20px;
+  }
+  #contact .social i.fa {
+    font-size: 34px;
+  }
+  #footer p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  .intro h1 {
+    font-size: 44px;
+  }
+  .intro p {
     font-size: 22px;
+  }
+  #about .about-text {
+    font-size: 18px;
+  }
+  .btn-default {
+    font-size: 16px;
+  }
+  .experience-card_text {
+    font-size: 18px;
+  }
+  #contact .form-control {
+    font-size: 18px;
+  }
+  #contact .social i.fa {
+    font-size: 32px;
+  }
+  #footer p {
+    font-size: 14px;
   }
 }
