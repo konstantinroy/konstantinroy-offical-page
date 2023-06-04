@@ -478,9 +478,12 @@ a:focus,
   }
   .dividing-line {
     width: 90%;
-}
+  }
 }
 @media (max-width: 480px) {
+  .intro {
+    background-position-x: -700px;
+  }
   .intro h1 {
     font-size: 50px;
   }
@@ -538,6 +541,9 @@ a:focus,
   .btn-default {
     font-size: 16px;
   }
+  .experience-card_photo {
+    height: 190px;
+}
   .experience-card_text {
     font-size: 18px;
   }
@@ -546,6 +552,53 @@ a:focus,
   }
   #contact .social i.fa {
     font-size: 32px;
+  }
+  #footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  #menu a.navbar-brand {
+    font-size: 16px;
+  }
+  .intro h1 {
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .intro p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  .btn-custom {
+    margin-top: 40px;
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 28px;
+}
+  #about .about-text {
+    font-size: 16px;
+  }
+  .btn-default {
+    font-size: 14px;
+  }
+  .section-title.center {
+    padding: 0;
+  }
+  .experience-card_photo {
+    height: 180px;
+  }
+  .experience-card_text {
+    margin: 0;
+    font-size: 16px;
+  }
+  #contact .form-control {
+    font-size: 16px;
+  }
+  #contact .social i.fa {
+    font-size: 30px;
   }
   #footer p {
     font-size: 14px;
